@@ -36,7 +36,7 @@ http://localhost:1234/
 - Haven't added media queries for fully responsive due to time constraint.
 - Instead of showing ratings stars or circles, I've instead just listed the rating out of 5. But can add that in provided more time.
 
-## Design decesions
+## Design decisions
 
 - Used flexbox CSS across the application for consistent cross-browser behaviour for UI and for easier responsive design.
 - Used a theme file for controlling styling details like fonts, spacing, screen sizes, etc.
