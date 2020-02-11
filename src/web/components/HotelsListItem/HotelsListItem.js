@@ -28,6 +28,7 @@ const PropertyInfo = styled.div`
 const PropertyDetailsWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  flex: 1;
   padding: 0px ${theme.space.twoX} ${theme.space.twoX} ${theme.space.twoX};
   justify-content: space-between;
 `;
@@ -35,6 +36,7 @@ const PropertyDetailsWrapper = styled.div`
 const PropertyPriceWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  flex: 1;
   padding: 0px ${theme.space.twoX} ${theme.space.twoX} ${theme.space.twoX};
   justify-content: flex-end;
   text-align: end;
@@ -43,7 +45,9 @@ const PropertyPriceWrapper = styled.div`
 const PropertyRatingsWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  flex: 1;
   justify-content: center;
+  text-align: center;
 `;
 
 const PropertyDetails = styled.div`
