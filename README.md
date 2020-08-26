@@ -1,4 +1,4 @@
-# Welcome to Qantas Hotels Front End Coding Test 👋
+# Welcome to Hotels listing 👋
 
 > This application uses a static data set to fetch a list of hotel properties and their respective details.
   - shows a list of properties on offer with their details like address, price, offers, etc.
@@ -27,11 +27,6 @@ http://localhost:1234/
 
 ## Tradeoffs
 
-- Didn't add progressive loader screens:
-  Due to time limitations, I couldn't integrate loaders to screen elements. I would have used progressive loaders using a dummy data set but re-utilizing the container styles to show a loading state till the data is fetched. (For this I also have added a in progress and success state)
-- Could refactor the styling part to have common styles across different components for reusability.
-- Couldn't implement the dropdown on UI to sort by price due to time constraint, but there is a method already created for that. Just need to call that on change of a dropdown.
-- Couldn't add unit tests for every file due to time constraint. But tried to cover most of the business cases. Also there are a few pending tests for scenarios not implemented.
 - Haven't used any logging library for logging errors.
 - Haven't added media queries for fully responsive due to time constraint.
 - Instead of showing ratings stars or circles, I've instead just listed the rating out of 5. But can add that in provided more time.
